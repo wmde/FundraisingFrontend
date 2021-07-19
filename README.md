@@ -116,7 +116,7 @@ The following example shows the configuration when the content repository is at 
 
 ### A/B test campaigns.
 
-For more information om how to set up the campaigns see "[How to Create an A/B Test](docs/HOWTO_Create_an_a_b_test.md).
+For more information om how to set up the campaigns see "[How to Create an A/B Test](doc/HOWTO_Create_an_a_b_test.md).
 
 The campaign definitions are in the `app/config` directory. You can tell the application which files to use by editing 
 the `campaigns` value in `app/config/config.ENVIRONMENTNAME.json`. The campaign configuration files will be merged on 
