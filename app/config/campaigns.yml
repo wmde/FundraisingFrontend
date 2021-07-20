@@ -60,3 +60,16 @@ campaigns:
       url_key: confirmation
       active: true
       param_only: false
+
+    encryption_hint:
+      description: Testing users seeing/not seeing the hint about encrypted connection when they submit a form.
+      reference: "https://phabricator.wikimedia.org/T286446"
+      start: "2021-07-29"
+      end: "2021-08-12"
+      buckets:
+        - "visible"
+        - "not_visible"
+      default_bucket: "visible"
+      url_key: encrypthint
+      active: true
+      param_only: true
